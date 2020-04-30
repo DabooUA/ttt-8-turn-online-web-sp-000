@@ -37,6 +37,6 @@ def turn(board)
   if valid_move? == false
     display_board
   else
-    
+
   end
 end
