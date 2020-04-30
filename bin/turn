@@ -10,4 +10,4 @@ display_board(board)
 
 turn(board)
 
-input_to_index = gets.strip
+
