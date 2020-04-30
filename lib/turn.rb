@@ -32,7 +32,7 @@ def move(board, index, value = "X")
 end
 
 def turn(board)
-  puts "Please enter 1-9:"
+  puts "Please enter 1-9: "
   user_input = gets.strip
   if valid_move? == false
     display_board
