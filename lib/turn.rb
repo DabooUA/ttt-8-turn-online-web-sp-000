@@ -22,6 +22,12 @@ def valid_move?(board, index)
     end
 end
 
+def input_to_index(user_input)
+  user_input.to_i - 1
+
+end
+
 def turn(board)
   puts "Please enter 1-9:"
+
 end
