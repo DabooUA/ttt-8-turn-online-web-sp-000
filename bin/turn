@@ -2,6 +2,11 @@
 
 require_relative "../lib/turn "
 
-puts "Hi! I'm HAL, what's your name?"
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+
+puts "Welcome to Tic Tac Toe!"
+display_board(board)
+
+turn(board)
+
 name = gets.strip
-greeting(name)
